@@ -19,7 +19,7 @@ env:
   global:
     - HDF5_CACHE_DIR=$HOME/.cache/hdf5
 
-matrix:
+jobs:
   include:
     # needed to work around https://github.com/travis-ci/travis-ci/issues/4794
     # TODO: We should see if we can replace this with installing python via pyenv # based on toxenv
